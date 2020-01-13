@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <title>SA 365</title>
+    </head>
+    <body>
+        <header class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row justify-content-center navbar-collapse collapse " id="navbarMenu">
+                    <div class="navbar-nav">
+                        <a href="" class="nav-item menu">seção um</a>
+                        <a href="" class="nav-item menu">seção dois</a>
+                        <a href="" class="nav-item menu">seção tres</a>
+                    </div>
+                </div>
+                          
+            </nav>
+            <div class="row justify-content-center logo">
+                <img src="./assets/img/logo.png" class="img-fluid"/>
+            </div>
+            <div class="row justify-content-center titulo">
+                <h1>LOREM IPSUM</h1>
+            </div> 
+            
+            <div class="row justify-content-center header-mensagem" >
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                    <br>accusantium doloremque laudantium.</p>
+            </div>
+            <div class="row align-items-end justify-content-center" style="margin-top:5%;"> 
+                <div class="col-md-3 ">
+                    <a href='' class='btn-header'>
+                        LOREM IPSUM
+                    </a>
+                </div>
+                <div class="col-md-3 " >
+                    <a href='' class='btn-header'>
+                        LOREM IPSUM
+                    </a>
+                </div>
+
+            </div>
+        </header>
+        <section class="container carrossel" >
+            <div class="item-slide ativo" id="slide1">
+                <p> is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries
+                </p>
+            </div>
+            <div class="item-slide" id="slide2">
+                <p> but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <div class="item-slide" id="slide3">
+                <p> Contrary to popular belief, Lorem Ipsum is not simply random text.
+                     It has roots in a piece of classical Latin literature from 45 BC,
+                      making it over 2000 years old. Richard McClintock,
+                       a Latin professor at Hampden-Sydney College in Virginia
+                       Contrary to popular belief, Lorem Ipsum is not simply random text.
+                     It has roots in a piece of classical Latin literature from 45 BC,
+                      making it over 2000 years old. Richard McClintock,
+                       a Latin professor at Hampden-Sydney College in Virginia
+                       
+                </p>
+            </div>
+            <ul>
+                <li onclick="escolha(1)" style="background-color:  #fa004d" id="slideItem1"></li>
+                <li onclick="escolha(2)" id="slideItem2"></li>
+                <li onclick="escolha(3)" id="slideItem3"></li>
+            </ul>
+
+            
+        </section>
+        <section id="contato" class="container-fluid">
+			
+            <div class="row" >
+                <div class="col-sm-12 col-lg-6 form-contato">
+                    <form method="post">
+                        <h3>CONTATO</h3>
+                        <input type="text"  placeholder="Nome" name="nome" class="campos" required>
+                        <input type="tel"   placeholder="Telefone" name="telefone" class="campos" required>
+                        <input type="email" placeholder="E-mail" name="email" class="campos" required>
+                        <select class="campos">
+                            <option selected disabled>Assunto</option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                        <textarea class="campos" placeholder="Mensagem" required></textarea>
+                        <button type="submit" class="btn-form-ctt">ENVIAR</button>
+                    </form>
+                   
+                </div>
+                <figure class="col-sm-12 col-lg-6" ></figure>
+            </div>
+		</section>
+
+        <footer  style="height: 100px;">
+            <div class="footer-img">
+                <img src="assets/img/face-icon.png" >
+                <img src="assets/img/insta-icon.png">
+                <img src="assets/img/yt-icon.png" >
+            </div>
+        </footer>
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+</html>

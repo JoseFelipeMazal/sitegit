@@ -1,0 +1,183 @@
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+/*cabeçalho*/
+header{
+    
+    background:url("../img/violao.png")  center no-repeat;
+    /*display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;*/
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+	/*align-items:center;*/
+	background-color:transparent;
+	background-size:cover;
+}
+.menu{
+	color: #ffffff;
+    margin: 10px;
+    font-size: 14px;
+}
+.menu:hover{
+    color: #f86292;
+}
+.logo{
+    margin-top:5%;
+}
+.titulo{
+    color:#FFFFFF;
+    margin-top:1%;
+}
+.header-mensagem{
+    text-align:center;
+    color:#FFFFFF;
+    font-size: 14px;
+    margin-top:1%;
+}
+.btn-header	{
+    height:55px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#FFF;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 3px;
+    padding:0 20px;
+    margin: auto;
+    margin-bottom:20px;
+    max-width: 260px;
+}
+.btn-header:hover{
+   
+    background-color:#f8c4d8;
+    color:#f86292;
+    border-style: none;
+}
+/*Fim do cabeçalho*/
+/*Carrosel*/
+.carrossel{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    transition: 1s;
+    height: 380px;
+}
+.item-slide{
+    display: none;
+}
+.ativo{
+    display: flex;
+}
+.carrossel p{
+    color: #000000;
+    text-align: center;
+   
+}
+.carrossel ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: end;
+    
+}
+.carrossel ul li{
+   width: 20px;
+   height: 20px;
+   margin-right : 10px;
+   border-radius: 10px;
+   background-color: #bbbbbb    ;
+   list-style-type: none;
+   cursor: pointer;
+}
+.ativo-li{
+    background-color: #fa004d;
+}
+/*Area contato*/
+#contato figure{
+	background-image:url('../img/camera.png') ;
+	background-position:center;
+	background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.form-contato{
+    height: 800px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-contato form{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    
+}
+.form-contato h3{
+    width: 100%;
+    max-width: 400px;
+    align-items:initial;
+    color: #f39200;
+}
+.campos{
+    margin:10px;
+    width:100%;
+    transition:0.3s;
+    padding-bottom: 5px;
+    max-width: 400px;
+    background-color:  #eeeeee;
+    color: #999999;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px; 
+    border-color: #999999;
+}
+textarea.campos{
+    min-height:200px;
+}
+.campos:focus{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    outline: none;
+    border-color: #f39200;
+}
+.campos:focus::placeholder{
+    color: #000000;
+}
+.btn-form-ctt{
+    width: 100%;
+    height: 65px;
+    background-color: #fa004d;
+    color: #ffffff;
+    max-width: 400px;
+    margin:10px;
+    border-style: none;
+}
+/*Fim area contato*/
+/*Footer*/
+footer{
+    height: 70px;
+    
+
+}
+.footer-img{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: initial;
+    margin-right: 100px;
+    margin-top: 35px;
+}
+.footer-img img{
+    margin-right: 20px;
+}
